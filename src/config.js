@@ -11,7 +11,7 @@ const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 40%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
@@ -27,8 +27,8 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
+      { name: "pharaoh" },
+      { name: "gold" },
       { name: "Iris" },
       { name: "Shine" },
       { name: "Bottom lid" },
@@ -92,7 +92,7 @@ const preview = {
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 12,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
